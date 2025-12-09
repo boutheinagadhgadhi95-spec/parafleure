@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Parapharmacie</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f7f7f7; }
+        header { background: #27a9e0; padding: 20px; color: white; text-align: center; }
+        nav { background: white; padding: 10px; text-align: center; }
+        nav a { margin: 0 15px; text-decoration: none; color: #27a9e0; font-weight: bold; }
+        .container { width: 90%; margin: 20px auto; }
+        .products { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .product { background: white; padding: 15px; border-radius: 10px; box-shadow: 0 0 10px #ccc; text-align: center; }
+        .product img { width: 100%; border-radius: 10px; }
+        footer { background: #27a9e0; padding: 10px; color: white; text-align: center; margin-top: 30px; }
+        @media(max-width: 768px) {
+            .products { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue à Ma Parapharmacie</h1>
+    <p>Produits de soin, beauté et bien-être</p>
+</header>
+
+<nav>
+    <a href="#home">Accueil</a>
+    <a href="#products">Produits</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="products">
+    <h2>Nos Produits</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Produit 1">
+            <h3>Crème hydratante</h3>
+            <p>Prix : 30 TND</p>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Produit 2">
+            <h3>Gel nettoyant</h3>
+            <p>Prix : 25 TND</p>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Produit 3">
+            <h3>Vitamine C</h3>
+            <p>Prix : 40 TND</p>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="contact">
+    <h2>Contact</h2>
+    <p>Email : contact@parapharmacie.tn</p>
+    <p>Téléphone : +216 55 000 000</p>
+</div>
+
+<footer>
+    © 2025 Ma Parapharmacie – Tous droits réservés
+</footer>
+
+</body>
+</html>
