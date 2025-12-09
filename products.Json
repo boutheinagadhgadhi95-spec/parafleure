@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Crème hydratante", "price": 30, "image": "https://via.placeholder.com/200?text=Creme+Hydratante" },
+  { "id": 2, "name": "Gel nettoyant", "price": 25, "image": "https://via.placeholder.com/200?text=Gel+Nettoyant" },
+  { "id": 3, "name": "Vitamine C", "price": 40, "image": "https://via.placeholder.com/200?text=Vitamine+C" },
+  { "id": 4, "name": "Shampoing", "price": 20, "image": "https://via.placeholder.com/200?text=Shampoing" },
+  { "id": 5, "name": "Lotion Corps", "price": 35, "image": "https://via.placeholder.com/200?text=Lotion+Corps" }
+]
